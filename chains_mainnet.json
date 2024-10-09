@@ -1,7 +1,7 @@
 [
     {
         "chainId": 324,
-        "name": "ZKsyncERA",
+        "name": "ZKsync Era",
         "iconUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/24091.png",
         "publicRpcs": [
             "https://mainnet.era.zksync.io",
@@ -23,20 +23,21 @@
     },
     {
         "chainId": 388,
-        "name": "Cronos",
+        "name": "Cronos zkEVM",
         "iconUrl": "https://zkevm.cronos.org/images/chains/zkevm.svg",
-        "chainType": "Validium",
         "publicRpcs": ["https://mainnet.zkevm.cronos.org"],
         "explorerUrl": "https://explorer.zkevm.cronos.org/",
         "websiteUrl": "https://cronos.org/zkevm",
+        "launchDate": 1722412995,
+        "chainType": "Validium",
         "baseToken": {
-            "symbol": "zkCRO",
             "name": "zkCRO",
+            "symbol": "zkCRO",
             "contractAddress": "0x28Ff2E4dD1B58efEB0fC138602A28D5aE81e44e2",
             "type": "erc20",
             "imageUrl": "https://zkevm.cronos.org/images/chains/zkevm.svg",
             "decimals": 18
         },
-        "launchDate": 1679626800
+        
     }
 ]
